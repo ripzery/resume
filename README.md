@@ -12,7 +12,9 @@ Please run the following command below to install `texlive-full`.
 
 `apt-get install texlive-full`
 
-Finally, run `xelatex resume.tex`. After successful execution, you will get `resume.pdf` file at the current directory.
+Then, run `xelatex resume.tex`. 
+
+After successful execution, you will get `resume.pdf` file at the current directory.
 
 ### Mac
 
