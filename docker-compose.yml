@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  build-latex:
+    image: "ripzery/debian-texlive:0.0.3"
+    volumes:
+      - .:/root/resume
+    command: sh ./root/resume/build-latex.sh
